@@ -1,0 +1,105 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content:center;
+    padding: 1rem;
+}
+
+.papel {
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.928);
+}
+
+.foto {
+    position: absolute;
+    z-index: 1;
+    border-radius: 15px 15px 0px 0px;
+    margin-top: -5px;
+    background-size: 100px, 200px;
+    width: 370px;
+    height: 330px;
+}
+
+h3 {
+    position: absolute;
+    z-index: 3;
+    font-size: 10px;
+    top: 343px;
+}
+
+h1 {
+    position: absolute;
+    z-index: 4;
+    top: 350px;
+}
+
+.h41 {
+    position: absolute;
+    z-index: 4;
+    top: 405px;
+    font-size: 12px;
+}
+
+.h42 {
+    position: absolute;
+    z-index: 4;
+    top: 425px;
+    font-size: 12px;
+}
+
+.menu-data {
+    position:absolute;
+    display: contents;
+    top: -100px;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+}
+
+.nove {
+    position: relative;
+    z-index: 5;
+    top:425px;
+    left: -40px;
+    color: rgb(238, 6, 6);
+    font-size: 40px;
+}
+
+.barra {
+    position: relative;
+    z-index: 5;
+    top:392px;
+    left: -15px;
+    font-size: 64px;
+
+}
+
+.sete {
+    position: relative;
+    z-index: 5;
+    top:425px;
+    left: 5px;
+    color: rgb(238, 6, 6);
+    font-size: 40px;
+
+
+}
+
+.barra1 {
+    position: relative;
+    z-index: 5;
+    top:392px;
+    left: 20px;
+    font-size: 64px;
+}
+
+.vinte {
+    position: relative;
+    z-index: 5;
+    top:425px;
+    left: 40px;
+    color: rgb(238, 6, 6);
+    font-size: 40px;
+
+}
